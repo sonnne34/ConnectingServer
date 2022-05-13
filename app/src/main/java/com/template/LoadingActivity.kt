@@ -31,7 +31,7 @@ class LoadingActivity : AppCompatActivity() {
     private var urlPackageid = "/?packageid=" + BuildConfig.APPLICATION_ID
     private var urlUsserid = "usserid=" + UUID.randomUUID().toString()
     private var urlGetz = "getz=" + TimeZone.getDefault().id.toString()
-    private var urlGetr = "getr=utm_source=google-play&utm_medium=organic"
+    private var urlGetr = "getr=utm_source=google-play&utm_medium=..."
     private var urlRazdelitel = "&"
 
     override fun onCreate(savedInstanceState: Bundle?) {
